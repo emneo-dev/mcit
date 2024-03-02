@@ -14,5 +14,7 @@
         <User {username} {info} />
       {/each}
     </ul>
+  {:else}
+    <span class="flex grow items-center text-2xl">No players registered in users.json!</span>
   {/if}
 </main>
