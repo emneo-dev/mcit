@@ -8,7 +8,11 @@
 
 <main class="absolute inset-0 flex flex-col items-center p-8">
   <h1 class="text-5xl font-bold">KreogMC</h1>
-  <ul class="flex grow items-center">
-    <User username="huntears" info={tree.huntears} />
-  </ul>
+  {#if Object.keys(tree).length !== 0}
+    <ul class="flex grow items-center">
+      {#each Object.entries(tree) as [username, info]}
+        <User {username} {info} />
+      {/each}
+    </ul>
+  {/if}
 </main>
