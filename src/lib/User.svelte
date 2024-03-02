@@ -6,7 +6,7 @@
 </script>
 
 <li>
-	<span class="text-xl">
+	<span class="text-xl font-mono">
 		{username}
 	</span>
 	{#if Object.keys(info.invited).length !== 0}
