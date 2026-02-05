@@ -12,7 +12,11 @@
         }
       },
       "DiamaXV": {
-        "invited": {}
+        "invited": {
+          "julien_guichon": {
+            "invited": {}
+          }
+        }
       },
       "MainHoope13": {
         "invited": {}
