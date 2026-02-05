@@ -18,7 +18,11 @@
         "invited": {}
       },
       "LEONNIX10": {
-        "invited": {}
+        "invited": {
+          "Yoppeur": {
+            "invited": {}
+          }
+        }
       }
     }
   }
